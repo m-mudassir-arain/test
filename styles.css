@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    background-image:url(./first.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family:'Gill Sans';
+    margin: 0;
+    font-weight: bolder;
+}
+.heading{
+    border: 5px solid green;
+    padding: 10px 30px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+}

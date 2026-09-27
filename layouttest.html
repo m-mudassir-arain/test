@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            text-align:center;
+            border:1px solid red;
+            display:grid;
+            grid-template-areas: 
+                'header header header'
+                'sidebar content content'
+                'sidebar footer footer';
+            gap: 10px;
+
+             
+        }
+        .div-1{
+           grid-area: header;
+        }
+        .div-2{
+            grid-area: sidebar;
+            height: 400px;
+        }
+        .div-3{
+            grid-area: content;
+            height: 300px;
+        }
+        .div-4{
+            grid-area: footer;
+            height: 100px;
+        }
+        div{
+            height: 100px;
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="div-1">Header</div>
+        <div class="div-2">Sidebar</div>
+        <div class="div-3">Content</div>
+        <div class="div-4">Footer</div>
+        
+    </section>
+    
+</body>
+</html>
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        #wapper{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            border:1px solid red;
+        }
+        header{
+            border:1px solid black;
+            width:100%;
+            height:100px;
+        }
+        #remainingsection{
+            border:1px solid black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:100%;
+        }
+        aside{
+            border:1px solid black;
+            width:30%;
+            height:400px;
+            background-color:lightgreen;
+        }
+        #div2{
+            border:1px solid black;
+            width:70%;
+            height:400px;
+        } 
+        main{
+            border:1px solid black;
+            width:100%;
+            height:300px;
+            background-color:lightgreen;
+        }
+        /* footer section CSS */
+        footer{
+            border:1px solid black;
+            width:100%;
+            height:100px;
+            background-color:lightblue;
+        }
+
+    </style>
+</head>
+<body>
+   <!-- section 1 -->
+    <!-- header section -->
+    <section id="wapper">
+        <header>Header</header>
+        <div id="remainingsection">
+            <aside>Aside</aside>
+            <div id="div2">
+                <main>Main Content</main>
+                <footer>Footer</footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
